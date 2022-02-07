@@ -33,7 +33,7 @@ const SearchBox = ({ placeholder }) => {
                                 <img src={e.strDrinkThumb} alt="drink" />
                             </div>
                             <div className="resultName">
-                                <p>{e.strDrink} - <span>{e.strCategory}</span> </p>
+                                <p>{e.strDrink}  <span>- {e.strCategory}</span> </p>
                             </div>
                         </a>
                     )}

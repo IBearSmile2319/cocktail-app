@@ -9,7 +9,7 @@
     align-items: center;
     background-color: white;
     height: 2.5rem;
-    width: 90%;
+    width: 100%;
     border-radius:0.5rem;
   }
   
@@ -83,7 +83,21 @@
     letter-spacing:5px;
     text-shadow: 0px 0px 1px #ccc;
   }
-  
+  @media (max-width: 768px) {
+    
+    .searchInputs {
+      width: 90%;
+    }
+    .dataResult{
+      width: 90%;
+    }
+    .dataResult a{
+      font-size:1rem;
+    }
+    .dataResult a span{
+       display: none;
+    }
+  }
   #clearBtn {
     cursor: pointer;
   }
