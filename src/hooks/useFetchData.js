@@ -39,3 +39,19 @@ export const useFetchData = (url) => {
 
   return { data }
 }
+
+export const useFetchSearchData = async (url) => {
+  const search = await fetch(url, {
+    method: "GET",
+    crossDomain: "true",
+    Headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Access-Control-Allow-Origin": "http://www.thecocktaildb.com"
+    }
+
+  }).then(res => res.json())
+    .catch(err => {
+      console.log(err)
+    })
+  return { drinks: search.drinks }
+}

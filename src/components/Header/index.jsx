@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import SearchBox from '../SearchBox';
 import './index.css'
 const Header = ({ cart,total }) => {
     return (
@@ -8,6 +9,7 @@ const Header = ({ cart,total }) => {
                 <Link className="link-app" to="/" >
                     CocktailApp
                 </Link>
+                <SearchBox placeholder="Search drinks..."/>
                 <Link to="/cart" className="cart-resume">
                     <div className="cart-basket">
                         <ion-icon name="basket-outline"></ion-icon>
