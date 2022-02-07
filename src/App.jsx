@@ -1,12 +1,12 @@
+import { DataProvider } from "./context/DataContext"
 import AppRouter from "./routers/AppRouter"
 
 
 function App() {
-
   return (
-    <div className="App">
+    <DataProvider>
       <AppRouter/>
-    </div>
+    </DataProvider>
   )
 }
 

@@ -1,0 +1,78 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.main .card{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #ccc;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+.main .card .card-body{
+    font-size: 20px;
+    font-weight: 500;
+    margin:0;
+    color: var(--bg-primary);
+    margin-bottom: 10px;
+    margin-top: auto;
+    font-family: "Yellowtail";
+    text-shadow: 0px 0px 1px #ccc;
+}
+.main .card .card-body h2{
+    font-size: 2rem;
+    margin-bottom: -9px;
+    padding: 0;
+}
+.main .card .card-body p{
+    font-size: 1.2rem;
+    margin-bottom: -10px;
+    margin:0;
+    padding:0;
+}
+.main .card .card-head{
+    display: flex;
+    justify-content: space-between;
+}
+.main .card .card-head span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+    padding: 2px 5px;
+
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.main .card .card-head button{
+    background: none;
+    color: var(--text-primary);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.main .card .card-head button ion-icon {
+    font-size: 1.5rem;
+}
+.main .card .card-head button.add:hover{
+    color: var(--green-800);
+}
+.main .card .card-head button.remove{
+    color: var(--red-600);
+}
+.main .card .card-head button.remove:hover{
+    color: var(--red-700);
+}
