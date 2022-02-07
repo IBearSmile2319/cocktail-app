@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import AppRouter from "./routers/AppRouter"
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      Structure
+      <AppRouter/>
     </div>
   )
 }

@@ -19,7 +19,6 @@
     "@vitejs/plugin-react": "^1.0.7",
     "vite": "^2.7.2"
   },
-  "main": "vite.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IBearSmile2319/cocktail-app.git"
