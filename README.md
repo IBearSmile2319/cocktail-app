@@ -12,13 +12,13 @@ https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 
 
 
-## Install dependencies
+## Install the modules.
 
 ```sh
 $ npm install
 ```
 
-## Run proyect
+## Run the application
 
 ```sh
 $ npm run dev
